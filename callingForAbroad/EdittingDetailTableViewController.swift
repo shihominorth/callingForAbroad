@@ -43,28 +43,28 @@ class EdittingDetailTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 7
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 10
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            
-           if indexPath.section == 0 {
+           if indexPath.row == 0 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting NameCalling", for: indexPath) as? EdittingNameCallingForTableViewCell)!
                
-//               cell.textFiled.text = item.nameCallingFor
+            cell.textField.text = editItem?.nameCallingFor
                
 
                // Configure the cell...
 
                return cell
            }
-           else if indexPath.section == 1 {
+           else if indexPath.row == 1 {
                    let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting date Calling", for: indexPath) as? EdittingDateCallingTableViewCell)!
 
                    // Configure the cell...
@@ -72,7 +72,7 @@ class EdittingDetailTableViewController: UITableViewController {
                 return cell
             
             }
-           else if indexPath.section == 2 {
+           else if indexPath.row == 2 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting local Name", for: indexPath) as? EdittingLocalNameTableViewCell)!
 
                // Configure the cell...
@@ -82,7 +82,7 @@ class EdittingDetailTableViewController: UITableViewController {
                return cell
            }
            
-           else if indexPath.section == 3 {
+           else if indexPath.row == 3 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting local Time", for: indexPath) as? EdittingLocalTimeTableViewCell)!
 
                // Configure the cell...
@@ -90,7 +90,7 @@ class EdittingDetailTableViewController: UITableViewController {
 
                return cell
            }
-           else if indexPath.section == 4 {
+           else if indexPath.row == 4 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting destination Name", for: indexPath) as? EdittingDestinationNameTableViewCell)!
 
                // Configure the cell...
@@ -98,7 +98,7 @@ class EdittingDetailTableViewController: UITableViewController {
                cell.textField.text = editItem?.destinationName
                return cell
            }
-           else if indexPath.section == 5 {
+           else if indexPath.row == 5 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting jet Lag", for: indexPath) as? EdittingJetLagTableViewCell)!
     
                // Configure the cell...
@@ -106,7 +106,7 @@ class EdittingDetailTableViewController: UITableViewController {
 
                return cell
            }
-           else if indexPath.section == 6 {
+           else if indexPath.row == 6 {
                let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting destination Time", for: indexPath) as? EdittingDestinationTimeTableViewCell)!
 
                // Configure the cell...
@@ -114,7 +114,24 @@ class EdittingDetailTableViewController: UITableViewController {
 
                return cell
            }
-           
+           else if indexPath.row == 7 {
+            
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "Editting notification", for: indexPath) as? EdittingNotificationTableViewCell)!
+            cell.textField.text = editItem?.notification
+            return cell
+           }
+        else if indexPath.row == 8 {
+        
+        let cell = (tableView.dequeueReusableCell(withIdentifier: "Eddtting calling place at", for: indexPath) as? EdittingPlaceCallingAtTableViewCell)!
+            
+            cell.textField.text = editItem?.placeCallingAt
+            return cell
+        }
+        else if indexPath.row == 9 {
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "Edittng map place calling at", for: indexPath) as? EdittingMapPlaceCallingAtTableViewCell)!
+            
+            return cell
+        }
            let cell = UITableViewCell()
            return cell
        }

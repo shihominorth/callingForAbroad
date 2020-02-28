@@ -23,7 +23,7 @@ class MenuTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,11 +33,22 @@ class MenuTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.section == 0 {
         let cell = (tableView.dequeueReusableCell(withIdentifier: "account Switch", for: indexPath) as? AccountSwitchingTableViewCell)!
 
         // Configure the cell...
 
         return cell
+        }
+        else if indexPath.section == 1 {
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "map", for: indexPath) as? MapTableViewCell)!
+
+                   // Configure the cell...
+
+            return cell
+        }
+        return UITableViewCell()
     }
     
 

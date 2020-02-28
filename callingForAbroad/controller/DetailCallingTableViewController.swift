@@ -43,7 +43,7 @@ class DetailCallingTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 7
+        return 10
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -113,6 +113,29 @@ class DetailCallingTableViewController: UITableViewController {
 
             return cell
         }
+        else if indexPath.section == 7 {
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "notification1", for: indexPath) as? NotificationTableViewCell)!
+
+            // Configure the cell...
+            cell.notificationLabel1.text = item.notification
+
+            return cell
+        }
+        else if indexPath.section == 8 {
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "place calling at", for: indexPath) as? PlaceCallingAtTableViewCell)!
+
+            // Configure the cell...
+            cell.placeCallingAtLabel.text = item.placeCallingAt
+
+            return cell
+        }
+        else if indexPath.section == 9 {
+            let cell = (tableView.dequeueReusableCell(withIdentifier: "map", for: indexPath) as? MapTableViewCell)!
+
+            // Configure the cell...
+
+            return cell
+        }
         
         let cell = UITableViewCell()
         return cell
@@ -168,6 +191,4 @@ class DetailCallingTableViewController: UITableViewController {
     */
 
 }
-
-
 

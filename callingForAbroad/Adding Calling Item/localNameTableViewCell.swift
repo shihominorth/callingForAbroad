@@ -1,17 +1,15 @@
 //
-//  EdittingDateCallingTableViewCell.swift
+//  localNameTableViewCell.swift
 //  checklist
 //
-//  Created by 北島　志帆美 on 2019-12-18.
+//  Created by 北島　志帆美 on 2019-12-21.
 //  Copyright © 2019 北島　志帆美. All rights reserved.
 //
 
 import UIKit
 
-class EdittingDateCallingTableViewCell: UITableViewCell {
+class localNameTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var textFiled: UITextField!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4367A1A7-6D06-4BE5-AB2B-092EE0D82743"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "callingForAbroad/controller/DetailCallingTableViewController.swift"
@@ -54,7 +54,7 @@
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.Sound">
                   <ActionContent
-                     soundName = "Glass">
+                     soundName = "Bottle">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
@@ -70,8 +70,8 @@
             filePath = "callingForAbroad/controller/DetailCallingTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,8 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "116">
                </Location>
                <Location
@@ -141,8 +141,8 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "250">
                </Location>
                <Location
@@ -171,8 +171,8 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
@@ -186,9 +186,9 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "254">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "270">
                </Location>
                <Location
                   uuid = "6894963A-343D-4164-8E04-D0EF3C0E901B - a68c7b64caa3a6f2"
@@ -201,9 +201,9 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "293">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "292">
                </Location>
                <Location
                   uuid = "6894963A-343D-4164-8E04-D0EF3C0E901B - 65b969a6c2969539"
@@ -216,9 +216,9 @@
                   urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "240">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "251">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -282,30 +282,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2FD2083C-6764-4915-9D04-1FAADFF88128"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "callingForAbroad/EdittingDetailTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-            <Actions>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.Sound">
-                  <ActionContent
-                     soundName = "Bottle">
-                  </ActionContent>
-               </BreakpointActionProxy>
-            </Actions>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "FC43B461-DD55-423F-86D8-FB01DE36FFA2"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -364,6 +340,292 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "deleteItems(_:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Sound">
+                  <ActionContent
+                     soundName = "Glass">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "callingForAbroad/EdittingDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "EdittingDetailTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - 5b2fc80edbae7ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.delegate.getter : Swift.Optional&lt;checklist.EditItemTableViewControllerDelegate&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - b52a38c6771b8bc2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.delegate.setter : Swift.Optional&lt;checklist.EditItemTableViewControllerDelegate&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - 9c656be33c9652d3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.delegate.modify : Swift.Optional&lt;checklist.EditItemTableViewControllerDelegate&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - f564007ed9de7821"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.delegate.modify : Swift.Optional&lt;checklist.EditItemTableViewControllerDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - ada632638ff6a6bc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(style: __C.UITableViewStyle) -&gt; checklist.EdittingDetailTableViewController"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "391">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - a68c7b64caa3a6f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; checklist.EdittingDetailTableViewController"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "403">
+               </Location>
+               <Location
+                  uuid = "68AF75C1-D502-4335-84F1-FCD7BAB23BDE - 65b969a6c2969539"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;checklist.EdittingDetailTableViewController&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "362">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "callingForAbroad/EdittingDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "EdittingDetailTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - 7db483673ed10e96"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.callingCellList.getter : Swift.Optional&lt;checklist.CallingCellList&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - 838dde9e771f68a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.callingCellList.setter : Swift.Optional&lt;checklist.CallingCellList&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - 65526c89acc3dc9b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.callingCellList.modify : Swift.Optional&lt;checklist.CallingCellList&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - 879aab9638ad7bab"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.callingCellList.modify : Swift.Optional&lt;checklist.CallingCellList&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - ada632638ff6a6bc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(style: __C.UITableViewStyle) -&gt; checklist.EdittingDetailTableViewController"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - a68c7b64caa3a6f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; checklist.EdittingDetailTableViewController"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  uuid = "B1959C9F-FD96-48A5-9642-B92DF69EB887 - 65b969a6c2969539"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklist.EdittingDetailTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;checklist.EdittingDetailTableViewController&gt;"
+                  moduleName = "checklist"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kitajimashihomi/tutorialClass/callingForAbroad/callingForAbroad/EdittingDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "497">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9E6E895-B2C8-4EAD-8EF6-5F9CCB435C5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "callingForAbroad/EdittingDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "EdittingDetailTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE78782C-A313-485F-A446-9DF5651E77FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "callingForAbroad/EdittingDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Actions>
                <BreakpointActionProxy
